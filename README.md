@@ -9,7 +9,7 @@ Scripts for daily meditation, bot prep, uni and breasoning.
 
 # Getting Started
 
-Please read the following instructions on how to install the project on your computer for automating the Lucian Academy.
+Please read the following instructions on how to install the project on your computer for automating and customising your daily regimen.
 
 # Prerequisites
 
