@@ -7,9 +7,7 @@ swipl -G100g -T20g -L2g
 
 %% LA.com hits
 
-[texttobr2].
-[texttobr].
-['../listprologinterpreter/la_strings.pl'].
+['text_to_breasonings.pl'].
 texttobr2(4,"../Daily-Regimen/filekeeplacomhits.txt",u,u),texttobr(4,"../Daily-Regimen/filekeeplacomhits.txt",u,u).
 
 %% Give the thoughts to me (rb, gg or b, rb)
