@@ -43,14 +43,14 @@ noprotocol.
 halt.
 
 
-cd ../
+cd ../Algorithm-Writer-with-Lists/
 
 swipl
 
 ['../Text-to-Breasonings/text_to_breasonings.pl'].
 
-FileName2='./Algorithm-Writer-with-Lists/gl2a.txt',
-FileName3='Algorithm-Writer-with-Lists/gl2a.txt',
+FileName2='./gl2a.txt',
+FileName3='gl2a.txt',
 
 time((W is 6*4,texttobr2(u,FileName3,u,u,false,false,false,false,false,false,W),texttobr(1,FileName3,u,u))).
 
@@ -61,8 +61,8 @@ time((W is 6*4,texttobr2(u,FileName3,u,u,false,false,false,false,false,false,W),
 halt.
 
 
-mv Algorithm-Writer-with-Lists/gl2a.txt file.txt
-cd Algorithm-Writer-with-Lists/
+mv gl2a.txt ../Text-to-Breasonings/file.txt
+cd ../Algorithm-Writer-with-Lists/
 
 swipl
 ['grammar_logic_to_alg2.pl'].
