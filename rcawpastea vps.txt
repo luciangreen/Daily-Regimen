@@ -22,6 +22,7 @@ halt.
 swipl -G100g -T20g -L2g
 
 [meditationnoreplace].
+[meditatorsanddoctors].
 meditation.
 
 halt.
