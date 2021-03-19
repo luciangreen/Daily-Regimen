@@ -43,7 +43,7 @@ loading LPPM with `['lppm'].` then installing the package by running `lppm_insta
 * Daily regimen for meditation.  It contains a "keep the hits" argument, meditation for meditators, preparation for mind reading, clears security fears from meditators, gives each meditator 50 As with a custom algorithm, invites each meditator to a spiritual psychiatrist every month, and expands thoughts from `Text-to-Breasonings/file.txt` for each meditator.  This last step should only be taken when original philosophy has been written.
 
 * Follow the instructions for human daily regimen at <a href="https://github.com/luciangreen/Text-to-Breasonings/blob/master/Instructions_for_Using_texttobr(2).pl.txt">Daily Regimen (and safety instructions for using Text to Breasonings)</a>.
-* Modify the meditators in `Daily-Regimen/rcawpastea\ vps.txt`, `mindreadtestshared.pl` and `meditatorsanddoctors.pl`.
+* Modify the meditators in `Daily-Regimen/rcawpastea\ vps.txt`, `Text-to-Breasonings/mindreadtestshared.pl` and `Text-to-Breasonings/meditatorsanddoctors.pl`.
 * In the folder that `GitHub/Daily-Regimen` is in, copy and paste the contents of `rcawpastea vps.txt` into the terminal.  It is NOT a shell script, because it enters user input through the script.
 
 
