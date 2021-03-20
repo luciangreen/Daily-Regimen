@@ -5,7 +5,7 @@
 % run gl2a
 % run t2b reading on gl2a output
 
-cd Text-to-Breasonings/
+cd GitHub/Text-to-Breasonings/
 
 %truncate -s 2000 file.txt
 

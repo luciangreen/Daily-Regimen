@@ -44,7 +44,7 @@ loading LPPM with `['lppm'].` then installing the package by running `lppm_insta
 
 * Follow the instructions for human daily regimen at <a href="https://github.com/luciangreen/Text-to-Breasonings/blob/master/Instructions_for_Using_texttobr(2).pl.txt">Daily Regimen (and safety instructions for using Text to Breasonings)</a>.
 * Modify the meditators in `Daily-Regimen/rcawpastea\ vps.txt`, `Text-to-Breasonings/mindreadtestshared.pl` and `Text-to-Breasonings/meditatorsanddoctors.pl`.
-* In the folder that `GitHub/Daily-Regimen` is in, copy and paste the contents of `rcawpastea vps.txt` into the terminal.  It is NOT a shell script, because it enters user input through the script.
+* In the folder that `GitHub` is in (containing `Daily-Regimen`), copy and paste the contents of `rcawpastea vps.txt` into the terminal.  It is NOT a shell script, because it enters user input through the script.
 
 
 
@@ -52,14 +52,14 @@ loading LPPM with `['lppm'].` then installing the package by running `lppm_insta
 
 * Prepare bots for Lucian Academy.  They are given 50 As for meditation, etc.
 
-* In the folder that `GitHub/Daily-Regimen` is in, copy and paste the contents of `la_com_bot_prep.txt` into the terminal.  It is NOT a shell script, because it enters user input through the script.
+* In the folder that `GitHub` is in (containing `Daily-Regimen`), copy and paste the contents of `la_com_bot_prep.txt` into the terminal.  It is NOT a shell script, because it enters user input through the script.
 
 
 # la_com.txt
 
 * Do work for Lucian Academy.  A new student may start (given a coin toss) and old students may complete an essay (from short-course to PhD, given a coin toss) and possibly graduate.
 
-* In the `Lucian-Academy` folder, copy and paste the contents of `la_com.txt` into the terminal.  It is NOT a shell script, because it enters user input through the script.
+* In the folder that `GitHub` is in (containing `Lucian-Academy`), copy and paste the contents of `la_com.txt` into the terminal.  It is NOT a shell script, because it enters user input through the script.
 
 
 
@@ -67,7 +67,7 @@ loading LPPM with `['lppm'].` then installing the package by running `lppm_insta
 
 * Script for text to breasonings, with breasonings, details, production of algorithm-like synonyms and breasoning of these.
 
-* In the folder that `Text-to-Breasonings` is in, copy and paste the contents of `text_to_breasonings.txt` into the terminal.  It is NOT a shell script, because it enters user input through the script.
+* In the folder that `GitHub` is in (containing `Text-to-Breasonings`), copy and paste the contents of `text_to_breasonings.txt` into the terminal.  It is NOT a shell script, because it enters user input through the script.
 
 
 # Versioning

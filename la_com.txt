@@ -3,7 +3,7 @@
 *** NOTE START AND END TIMES 2.51- before 3.58
 
 # ssh root@x.x.x.x -p x
-cd Lucian-Academy
+cd GitHub/Lucian-Academy
 
 swipl -G100g -T20g -L2g
 
