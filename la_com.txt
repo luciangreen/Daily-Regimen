@@ -30,8 +30,8 @@ swipl -G100g -T20g -L2g
 
 ['../Algorithm-Writer-with-Lists/grammar_logic_to_alg.pl'].
 
-FileName2='./tpfile1.txt',
-FileName3='tpfile1.txt',
+FileName2='./lacomfile1.txt',
+FileName3='lacomfile1.txt',
 
 
 protocol(FileName2).
@@ -43,7 +43,7 @@ noprotocol.
 
 halt.
 
-mv tpfile1.txt ../Text-to-Breasonings/file.txt
+mv lacomfile1.txt ../Text-to-Breasonings/file.txt
 cd ../Text-to-Breasonings/
 
 swipl -G100g -T20g -L2g
