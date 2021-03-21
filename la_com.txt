@@ -55,7 +55,7 @@ FileName3='file.txt',
 
 time((W is 50*4,texttobr2(u,FileName3,u,u,false,false,false,false,false,false,W),texttobr(1,FileName3,u,u))),
 
-atom_concat('echo "" | mutt -s "T Profs 1" luciangreen@lucianacademy.com -a ',FileName3,A1),
+atom_concat('echo "" | mutt -s "LA com 1" luciangreen@lucianacademy.com -a ',FileName3,A1),
 
 shell1(A1).
 
