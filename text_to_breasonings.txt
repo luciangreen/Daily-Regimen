@@ -10,8 +10,8 @@ cd GitHub/Text-to-Breasonings/
 %truncate -s 2000 file.txt
 
 swipl
-['truncate.pl'].
-truncate1("file.txt",14000,"file.txt").
+['truncate_words_conserving_formatting.pl'].
+truncate_words_conserving_formatting(["file","file.txt"],14000,["file","file.txt"]).
 
 ['text_to_breasonings.pl'].
 N=1,M=14000,texttobr2(N,"file.txt",u,M,false,false,false,false,false,false).
