@@ -175,6 +175,7 @@ protocol(FileName2).
 notrace.
 
 [mindreadtestpsychiatrist].
+[meditatorsanddoctors].
 
 sectest0.
 
@@ -204,6 +205,7 @@ protocol(FileName2).
 notrace.
 
 [mindreadtestpsychiatrist].
+[meditatorsanddoctors].
 
 sectest1.
 
