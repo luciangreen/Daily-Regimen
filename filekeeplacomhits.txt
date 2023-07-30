@@ -1,3 +1,5 @@
+% member(List,Item) (below) only works with deprecated lpi
+
 %% RCAW - Random Combination Algorithm Writer with Predicates
 
 %%Input: Algorithms, Specification of this algorithm

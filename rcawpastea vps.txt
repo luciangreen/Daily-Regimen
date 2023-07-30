@@ -1,3 +1,5 @@
+#% member(List,Item) (below) only works with deprecated lpi
+
 # ssh root@x.x.x.x -p x
 # cd ../var/www/lucianacademy.ml/
 
