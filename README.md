@@ -55,6 +55,10 @@ halt
 
 # Running
 
+# big_medit1.sh
+
+* Automatically time travel and increase the longevity of your meditators each day. See <a href="http://www.github.com/luciangreen/Time_Machine/blob/master/big_medit1.md">instructions</a>.
+
 # rcawpastea vps.txt
 
 * Daily regimen for meditation.  It contains a "keep the hits" argument, meditation for meditators, preparation for mind reading, clears security fears from meditators, gives each meditator 50 As with a custom algorithm, invites each meditator to a spiritual psychiatrist every month, and expands thoughts from `Text-to-Breasonings/luciansphilosophy.txt` for each meditator.  This last step should only be taken when original philosophy has been written.
