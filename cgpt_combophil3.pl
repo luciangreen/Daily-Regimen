@@ -63,7 +63,7 @@ get_time(TS),stamp_date_time(TS,date(Year,Month,Day,Hour1,Minute1,Seconda,_A,_TZ
 	save_file_s(FN,String1),
 	
 working_directory1(WD,WD),
-working_directory1(_,"../private2/Text-to-Breasonings"),
+working_directory1(_,"../Text-to-Breasonings"),
 atomic_list_concat(List1,"\n",String1),
 atomic_list_concat(List1," ",String2),
 N0=1,M=u,(texttobr2(N0,u,String2,M,[auto,on])->true;true),
