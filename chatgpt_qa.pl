@@ -1,12 +1,14 @@
 :- use_module(library(http/json)).
-:-include('../listprologinterpreter/la_strings.pl').
-:-include('../listprologinterpreter/la_maths.pl').
-:-include('../listprologinterpreter/la_files.pl').
+:- include('../Text-to-Breasonings/text_to_breasonings.pl').
+%:-include('../listprologinterpreter/la_strings.pl').
+%:-include('../listprologinterpreter/la_maths.pl').
+%:-include('../listprologinterpreter/la_files.pl').
 
-secret_key("").
+%secret_key("").
 
 q(Q,A) :-
-secret_key(Secret_key),
+%secret_key(Secret_key),
+open_string_file_s("chatgpt_qa_key.txt",Secret_key),
 split_string(Q," "," ",Q1),
 length(Q1,L),
 MT is 4096-L-100,
