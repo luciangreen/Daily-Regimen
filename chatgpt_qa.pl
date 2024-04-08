@@ -8,7 +8,10 @@
 
 q(Q,A) :-
 %secret_key(Secret_key),
+working_directory1(WD,WD),
+working_directory1(_,"../../Daily-Regimen/"),
 open_string_file_s("chatgpt_qa_key.txt",Secret_key),
+working_directory1(_,WD),
 split_string(Q," "," ",Q1),
 length(Q1,L),
 MT is 4096-L-100,
