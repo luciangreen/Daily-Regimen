@@ -59,6 +59,6 @@ T is	N1+
 		C+ % Going to 5689
 		N1,
 
-N2 is (T mod 16000)+1,
+N2 is (T div 16000)+1,
 
 time(texttobr2_1(N2)),!.
