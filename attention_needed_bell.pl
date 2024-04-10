@@ -4,4 +4,4 @@ main :- halt(1).
 handle_error(_Err):-
   halt(1).
 attention_needed_bell :-
-bell("Attention needed"),!.
+catch((bell("Attention needed")->true;true),_,true),!.
