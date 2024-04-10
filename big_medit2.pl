@@ -72,8 +72,13 @@ destination(N1,C1,C2,Label) :-
 		point_to_br(N1),
 		prompt_question,
 		prompt_meditation,
-		writeln(Label),
+		write(Label),prompt_tt,
 		point_to_br(C1),
 		bc12,
 		point_to_br(C2),
 		prompt_meditation,!.
+		
+prompt_tt :- write(" "),
+repeat,writeln("Please enter \"y\":"),
+read_string(user_input,"\n\r","\n\r",_,S),
+S="y",!.		

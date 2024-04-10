@@ -12,7 +12,8 @@ echo "Please think of 108 arems and 108 friendlinesses, then enter \"y\":"
 ./please_enter_y.sh
 ./group_meditation.sh
 ./add_to_tt_log.sh
-echo "Going to present"
+echo "Going to present, press \"y\":"
+./please_enter_y.sh
 ./time_hop.sh
 echo "Please think of 108 arems and 108 friendlinesses, then enter \"y\":"
 ./please_enter_y.sh
@@ -28,7 +29,8 @@ echo "Please ask the future Head of State and the Simulation Co-ordinator for th
 echo "Please think of 108 arems and 108 friendlinesses, then enter \"y\":"
 ./please_enter_y.sh
 ./group_meditation.sh
-echo "Going to 5689"
+echo "Going to 5689, press \"y\":"
+./please_enter_y.sh
 ./time_hop.sh
 echo "Please think of 108 arems and 108 friendlinesses, then enter \"y\":"
 ./please_enter_y.sh
