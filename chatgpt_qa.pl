@@ -17,10 +17,10 @@ length(Q1,L),
 MT is 4096-L-100,
 Command1=["curl https://api.openai.com/v1/completions -H \"Content-Type: application/json\" -H \"Authorization: Bearer ",Secret_key,"\" -d '{\"model\": \"gpt-3.5-turbo-instruct\", \"prompt\": \"",Q,"\", \"max_tokens\": ",MT,", \"temperature\": 0}'"],
   foldr(string_concat,Command1,Command),
-(bash_command(Command,Output)->
+catch((bash_command(Command,Output)->
 					true;
-					(writeln(["Failed shell1 command: ",Command]),abort)
-				),!,
+					(writeln(["Failed shell1 command: ",Command]),fail)
+				),_,fail),!,
 				
 
 %?- % to enable json_read_dict/2

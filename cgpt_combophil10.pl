@@ -52,9 +52,9 @@ cgpt_combophil(Books,Num,In_String%,Out_List
 	%trace,
 	append(String02a,G6,G3),
 %trace,
-numbers(Num,1,[],Nums),
-findall(G4,(member(_,Nums),
-	combophil_alg_log(N1,G3,G4,In_String)),G41),
+%numbers(Num,1,[],Nums),
+%findall(G4,(member(_,Nums),
+	combophil_alg_log1(Num,G3,[],G41,In_String),%),G41),
  
  	working_directory(_,A000),
 
@@ -92,6 +92,15 @@ delete_all(G0,G1,G2) :-
 		string_codes(String02b,String00a)),Texts1),
 **/
 	% choose a file, algorithm y or n, record if y
+	
+combophil_alg_log1(0,_G3,G41,G41,_In_String) :- !.
+combophil_alg_log1(N1,G3,G40,G41,In_String) :-
+ (combophil_alg_log(_,G3,G4,In_String)->
+ (append(G40,[G4],G42),
+ N2 is N1-1,
+ combophil_alg_log1(N2,G3,G42,G41,In_String));
+ G40=G41),!.
+
 combophil_alg_log(_N1,G1,G2,In_String) :-
 	((member([_Dept00,_Folder00,N20],G1)%, N20<N1
 	)->
