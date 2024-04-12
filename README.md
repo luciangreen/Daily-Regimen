@@ -57,7 +57,7 @@ halt
 
 # big_medit1.sh
 
-* Automatically time travel and increase the longevity of your meditators each day. See <a href="http://www.github.com/luciangreen/Time_Machine/blob/master/big_medit1.md">instructions</a>.
+* Automatically time travel and increase the longevity of your meditators each day. See <a href="https://github.com/luciangreen/Time_Machine/blob/main/big_medit1.md">instructions</a>.
 
 # rcawpastea vps.txt
 
