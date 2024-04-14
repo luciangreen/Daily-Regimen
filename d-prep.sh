@@ -1,7 +1,8 @@
 #!/bin/bash 
 
 # One-off
-swipl --goal=main --stand_alone=true -o t2b4 -c text_to_breasonings4.pl 
+cd ../Text-to-Breasonings/
+swipl --goal=main_t2b4 --stand_alone=true -o t2b4 -c text_to_breasonings4.pl 
 
 # Each week
 cd ../Philosophy
