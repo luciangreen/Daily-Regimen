@@ -6,7 +6,8 @@
 
 %secret_key("").
 
-q(Q,A) :-
+q(Q0,A) :-
+replace(Q0,"\n"," ",Q),
 %secret_key(Secret_key),
 working_directory1(WD,WD),
 working_directory1(_,"../../Daily-Regimen/"),
