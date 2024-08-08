@@ -41,6 +41,7 @@ N1 is 	2*108*250 +				% meditation
 		250*CL +				% a15_meditators.sh prepares an apartment 
 								% in each dimension for meditators by 
 								% helping 15 of those around them
+		
 		3*10*(UL1+UL2)*250 +	% daily_medit.sh
 		3*10*J2*250,
 
@@ -50,11 +51,15 @@ C1 is	GM +
 		16000,					% time_hop.sh
 C2 is	GM,
 
+		N3 is 250*CL,			% anti_moral_end_meditators.sh breasons out breasonings at midnight at the end of the day to prevent dying
+
 
 		bc12,
 		destination(N1,C1,C2,"Going to present"),
 		destination(N1,C1,C2,"Going to 5689"),
 		point_to_br(N1),
+		prompt_question,
+		point_to_br(N3),
 		!.
 
 bc12 :-
