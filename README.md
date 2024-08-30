@@ -50,7 +50,8 @@ cd List-Prolog-Package-Manager
 swipl
 ['lppm'].
 lppm_install("luciangreen","Daily-Regimen").
-halt
+../
+halt.
 ```
 
 # Running
