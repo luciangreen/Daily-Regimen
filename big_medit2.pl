@@ -56,6 +56,7 @@ C2 is	GM,
 		destination(N1,C1,C2,"Going to 5689"),
 		point_to_br(N1),
 		prompt_question,
+		shell1_s("./anti_moral_end_meditators.sh"),
 		!.
 
 bc12 :-
